@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile    
+    image: adapter-design-pattern
+    container_name: adapter-design-pattern-container
+    ports:
+      - "3000:3000"
